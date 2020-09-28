@@ -29,7 +29,7 @@ public class Plate implements Drawable {
         g.setColor(Color.BLACK);
         g.drawRect(x + wight / 2 - 5, y + height, 10, height);
         g.setStroke(new BasicStroke(3));
-        g.setFont(new Font(str, 35, 35));
+        g.setFont(new Font(str, Font.ITALIC, 35));
         g.drawString(str, x + 2, y + 3 * height / 4);
         /*x = x + 5;
         g.drawLine(x + 5, y + 5, x + 5, y + height - 5);

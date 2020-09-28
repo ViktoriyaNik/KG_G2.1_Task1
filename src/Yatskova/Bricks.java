@@ -30,14 +30,13 @@ public class Bricks implements Drawable {
                     g.drawLine(xx, yy, xx, yy + 25);
                     xx += 50;
                 }
-                count++;
             } else {
                 while (xx < x + wight) {
                     g.drawLine(xx + 50, yy, xx + 50, yy + 25);
                     xx += 50;
                 }
-                count++;
             }
+            count++;
             xx = x;
             g.drawLine(x, yy + 25, x + wight, yy + 25);
             yy += 25;

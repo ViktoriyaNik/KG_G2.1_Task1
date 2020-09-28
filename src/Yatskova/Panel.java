@@ -5,13 +5,13 @@ import java.awt.*;
 
 public class Panel extends JPanel {
     private Sun sun = new Sun(80, 80, 30, 70, 44, Color.YELLOW);
-    private Cloud cloud[] = new Cloud[3];
+    private Cloud[] cloud = new Cloud[3];
     private Home home = new Home(100, 250, 300, 300, Color.MAGENTA);
     private CircleWindow circleWindow = new CircleWindow(215, 170, 70, 70, Color.DARK_GRAY, Color.CYAN);
-    private Window window[] = new Window[3];
+    private Window[] window = new Window[3];
     private Door door = new Door(280, 400, 110, 150, Color.ORANGE, Color.DARK_GRAY);
     private Plate plate = new Plate(410, 350, 100, 50, "Home", Color.ORANGE);
-    private Hay hay[] = new Hay[3];
+    private Hay[] hay = new Hay[3];
     private Garden garden = new Garden(550, 350, 300, 300, Color.DARK_GRAY);
 
     @Override
